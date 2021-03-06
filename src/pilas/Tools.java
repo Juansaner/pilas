@@ -30,12 +30,13 @@ public class Tools
         if (!q.estaVacia())
         {
             sb.append("<table align=\"center\" border=\"2\">");
-            sb.append("<tr>").append("<th>").append("Texto").append("</th>").append("</tr>");
+            sb.append("<tr>").append("<th>").append("Lanzamientos").append("</th>").append("</tr>");
             do
             {
                 Lanzamiento e = q.desapilar();
                 sb.append("<tr>").append("<td>");
                 sb.append(e.getDado1());
+                sb.append(" - ");
                 sb.append(e.getDado2());
                 sb.append("</td>").append("</tr>");
             }
