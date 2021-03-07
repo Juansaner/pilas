@@ -30,6 +30,10 @@ public class Pila<T extends Base> {
         return tope.isEmpty();
     }
     
+    public T primero(){
+        return tope.peek();
+    }
+    
     @Override
     public String toString()
     {
