@@ -77,4 +77,24 @@ public class OperacionesPilas<T extends Base> {
         return pilapares;
 
     }
+    public static  int Bernoulli (double p){
+    
+    double r1 = Math.random();
+    if(r1 <= p){
+    return 1;
+    }
+    else {
+    return 0;
+    }
+    
+    }
+    public static int Binomial (double p,int ensayos){
+    int exitos = 0;
+    for(int i=0; i <ensayos; i++){
+    if (Bernoulli(p)==1){
+    exitos++;
+        }
+    }
+    return exitos;
+    }
 }

@@ -37,6 +37,9 @@ public class Pila<T extends Base> {
     public T primero(){
         return tope.peek();
     }
+    public int tamaño (){
+    return tope.size();
+    }
     
     @Override
     public String toString()
