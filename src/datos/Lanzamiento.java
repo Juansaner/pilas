@@ -1,8 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Identificar cada valor que se genere en los lanzamientos.
+* @author juan_san.erazo@uao.edu.co Juan Pablo Sandoval Erazo 2195823
+* @author miguel.sanabria@uao.edu.co Miguel Angel Sanabria Rodriguez 2167228
+* 
+* 
+* @date 8 Marzo 2021
+* @version 1.0
+*/
 package datos;
 
 import pilas.Base;
@@ -63,7 +67,7 @@ public class Lanzamiento extends Base{
 
     @Override
     public String toString() {
-        return "Lanzamiento{" + "dado1=" + dado1 + ", dado2=" + dado2 + '}';
+        return "Lanzamiento " + "dado1=" + dado1 + ", dado2=" + dado2;
     }
 
     @Override

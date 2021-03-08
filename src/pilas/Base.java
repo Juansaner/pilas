@@ -1,8 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/**
+* Define un comportamiento que todos los demás deben tener para entrar a la Pila
+* @author juan_san.erazo@uao.edu.co Juan Pablo Sandoval Erazo 2195823
+* @author miguel.sanabria@uao.edu.co Miguel Angel Sanabria Rodriguez 2167228
+* 
+* 
+* @date 8 Marzo 2021
+* @version 1.0
+*/
 package pilas;
 
 /**
