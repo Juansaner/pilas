@@ -2,8 +2,8 @@
 * Contiene las Operaciones Realizadas en las pilas
 * @author juan_san.erazo@uao.edu.co Juan Pablo Sandoval Erazo 2195823
 * @author miguel.sanabria@uao.edu.co Miguel Angel Sanabria Rodriguez 2167228
-* 
-* 
+* @author john.quintero@uao.edu.co John Alejandro Quintero Suaza 2171945
+* @author esteban.garrido@uao.edu.co  Esteban Garrido  2160721
 * @date 8 Marzo 2021
 * @version 1.0
 */
@@ -77,24 +77,16 @@ public class OperacionesPilas<T extends Base> {
         return pilapares;
 
     }
-    public static  int Bernoulli (double p){
     
-    double r1 = Math.random();
-    if(r1 <= p){
-    return 1;
-    }
-    else {
-    return 0;
-    }
-    
-    }
-    public static int Binomial (double p,int ensayos){
-    int exitos = 0;
-    for(int i=0; i <ensayos; i++){
-    if (Bernoulli(p)==1){
-    exitos++;
+    public static double factorial (double n){
+        
+        double factorial = 1;
+        double numero = n;
+        
+        for (double i = numero; i > 0; i--) {
+            factorial=factorial*i;
         }
-    }
-    return exitos;
+        return factorial;
+        
     }
 }
